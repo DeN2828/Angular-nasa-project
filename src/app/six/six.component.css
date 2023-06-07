@@ -1,0 +1,29 @@
+.input-field {
+    width: 80%;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+  }
+  .button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #ccc;
+  }
+  
+  .button:active {
+    background-color: #aaa;
+  }
+  .text{
+    margin-top: 90px;
+    text-align: center;
+  }

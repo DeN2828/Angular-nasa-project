@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content: space-between; /* распределение элементов по ширине */
+    align-items: center; /* выравнивание по вертикали */
+    border: 1px solid #ccc; /* серый бордюр */
+    border-radius: 10px; /* скругленные углы */
+    padding: 10px; /* внутренний отступ */
+    justify-content: center;
+    width: 70%;
+    height: 60px;
+    margin-left: 14%;
+    background-color: #e6e6e6;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none; /* убираем маркеры списка */
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px; /* отступы между элементами */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a.active {
+    color: blue;
+  }
+  nav {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* тень */
+  }
+  
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

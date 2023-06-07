@@ -1,0 +1,17 @@
+
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+<div class="center-wrapper">
+</div>
+<nav>
+  <ul>
+    <li><a routerLink="/first-component" routerLinkActive="active" ariaCurrentWhenActive="page"><span class="change-text">Nasa</span></a></li>
+    <li><a routerLink="/second-component" routerLinkActive="active" ariaCurrentWhenActive="page"><span class="change-text">Asteroids</span></a></li>
+    <li><a routerLink="/third-component" routerLinkActive="active" ariaCurrentWhenActive="page"><span class="change-text">Earth</span></a></li>
+    <li><a routerLink="/fourth-component" routerLinkActive="active" ariaCurrentWhenActive="page"><span class="change-text">Mars</span></a></li>
+    <li><a routerLink="/fifth-component" routerLinkActive="active" ariaCurrentWhenActive="page"><span class="change-text">Epic</span></a></li>
+    <li><a routerLink="/six-component" routerLinkActive="active" ariaCurrentWhenActive="page"><span style="text-decoration:underline; font-size: larger; font-weight: bold;">{{sharedService.reg}}</span></a></li>
+
+  </ul>
+</nav>
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet></router-outlet>

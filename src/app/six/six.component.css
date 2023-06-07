@@ -15,6 +15,10 @@
     color: #333;
     cursor: pointer;
   }
+  .logout{
+    display: flex;
+    margin: auto 1400px;
+  }
   
   .button:hover {
     background-color: #ccc;
@@ -26,4 +30,19 @@
   .text{
     margin-top: 90px;
     text-align: center;
+  }
+  .logout-button {
+    background-color: #dc3545;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.1s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .logout-button:active {
+    background-color: #bd2130;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
   }

@@ -1,4 +1,5 @@
+<button *ngIf="isAuthorized" (click)="logout()" class="button logout logout-button">Logout</button>
 <textarea class="input-field" [(ngModel)]="inputValue" placeholder="Enter your nasa api key"></textarea>
 <button (click)="saveInput()" class="button">Сохранить</button>
 <h3 class="text">Регистрация в Наса</h3>
-<button (click)="openLink()" class="button">Открыть ссылку на регистрацию наса</button>
+<button (click)="openRegistrationPage()" class="button">Открыть ссылку на регистрацию наса</button>
